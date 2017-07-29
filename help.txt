@@ -1,0 +1,73 @@
+./backup/yankring_history_v2.txt:set expandtabdd,V
+./backup/yankring_history_v2.txt:"set expandtab,V
+./backup/yankring_history_v2.txt:set expandtab,V
+./backup/yankring_history_v2.txt:set expandtabset shiftwidth=2set softtabstop=2filetype plugin indent on,v
+./plugged/ultisnips/ChangeLog:	- UltiSnips now adheres to expandtab and tabstop options of vim
+./plugged/ultisnips/test/test_SnippetOptions.py:        vim_config.append('set expandtab')
+./plugged/ultisnips/test/test_SnippetOptions.py:        vim_config.append('set expandtab')
+./plugged/ultisnips/test/test_SnippetOptions.py:        vim_config.append('set expandtab')
+./plugged/ultisnips/test/test_SnippetOptions.py:        vim_config.append('set expandtab')
+./plugged/ultisnips/test/test_SnippetOptions.py:        vim_config.append('set noexpandtab')
+./plugged/ultisnips/test/test_Fixes.py:        vim_config.append('set noexpandtab')
+./plugged/ultisnips/test/test_Format.py:        vim_config.append('set expandtab')
+./plugged/ultisnips/test/test_Interpolation.py:        vim_config.append('set expandtab')
+./plugged/ultisnips/test/test_Interpolation.py:        vim_config.append('set expandtab')
+./plugged/ultisnips/doc/UltiSnips.txt:       the Vim 'shiftwidth', 'softtabstop', 'expandtab' and 'tabstop'
+./plugged/ultisnips/doc/UltiSnips.txt:       indentation settings. (For example, if 'expandtab' is set, the tab is
+./plugged/ultisnips/doc/UltiSnips.txt:        current 'tabstop' and 'expandtab' variables.
+./plugged/ultisnips/pythonx/UltiSnips/indent_util.py:        self._expandtab = (_vim.eval('&expandtab') == '1')
+./plugged/ultisnips/pythonx/UltiSnips/indent_util.py:        indent = indent.expandtabs(self._tabstop)
+./plugged/ultisnips/pythonx/UltiSnips/indent_util.py:        if not self._expandtab:
+Binary file ./plugged/ultisnips/pythonx/UltiSnips/__pycache__/indent_util.cpython-35.pyc matches
+./plugged/ultisnips/ftplugin/snippets.vim:setlocal noexpandtab
+./plugged/ultisnips/ftplugin/snippets.vim:            \|setlocal expandtab< autoindent< smartindent< cindent<
+./plugged/vim-ruby/ChangeLog:	* autoload/rubycomplete.vim: set 'expandtab' properly
+./plugged/vim-ruby/spec/spec_helper.rb:    vim.set 'expandtab'
+./plugged/vim-indent-guides/doc/indent_guides.txt:    `noexpandtab` is used (thanks @darkfeline and @wilywampa).
+./plugged/vim-indent-guides/autoload/indent_guides.vim:  if &l:shiftwidth > 0 && &l:expandtab
+Binary file ./plugged/YouCompleteMe/third_party/ycmd/ycm_core.so matches
+./plugged/YouCompleteMe/third_party/ycmd/third_party/python-future/tests/test_future/test_buffer.py:    def test_expandtabs(self):
+./plugged/YouCompleteMe/third_party/ycmd/third_party/python-future/tests/test_future/test_buffer.py:                         self.marshal(b'abc\rab\tdef\ng\thi').expandtabs())
+./plugged/YouCompleteMe/third_party/ycmd/third_party/python-future/tests/test_future/test_buffer.py:                         self.marshal(b'abc\rab\tdef\ng\thi').expandtabs(8))
+./plugged/YouCompleteMe/third_party/ycmd/third_party/python-future/tests/test_future/test_buffer.py:                         self.marshal(b'abc\rab\tdef\ng\thi').expandtabs(4))
+./plugged/YouCompleteMe/third_party/ycmd/third_party/python-future/tests/test_future/test_buffer.py:                         self.marshal(b'abc\r\nab\tdef\ng\thi').expandtabs(4))
+./plugged/YouCompleteMe/third_party/ycmd/third_party/python-future/tests/test_future/test_buffer.py:                         self.marshal(b'abc\rab\tdef\ng\thi').expandtabs())
+./plugged/YouCompleteMe/third_party/ycmd/third_party/python-future/tests/test_future/test_buffer.py:                         self.marshal(b'abc\rab\tdef\ng\thi').expandtabs(8))
+./plugged/YouCompleteMe/third_party/ycmd/third_party/python-future/tests/test_future/test_buffer.py:            self.marshal(b'abc\r\nab\r\ndef\ng\r\nhi').expandtabs(4))
+./plugged/YouCompleteMe/third_party/ycmd/third_party/python-future/tests/test_future/test_buffer.py:        self.assertEqual(bytes(b'  a\n b'), self.marshal(b' \ta\n\tb').expandtabs(1))
+./plugged/YouCompleteMe/third_party/ycmd/third_party/python-future/tests/test_future/test_buffer.py:        self.assertRaises(TypeError, self.marshal(b'hello').expandtabs, 42, 42)
+./plugged/YouCompleteMe/third_party/ycmd/third_party/python-future/tests/test_future/test_buffer.py:                              self.marshal(b'\ta\n\tb').expandtabs, sys.maxsize)
+./plugged/YouCompleteMe/third_party/ycmd/third_party/python-future/docs/3rd-party-py3k-compat-code/pycrypto_py3compat.py:# vim:set ts=4 sw=4 sts=4 expandtab:
+./plugged/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/str.cpp:BOOST_PYTHON_DEFINE_STR_METHOD(expandtabs, 0)
+./plugged/YouCompleteMe/third_party/ycmd/cpp/BoostParts/libs/python/src/str.cpp:BOOST_PYTHON_DEFINE_STR_METHOD(expandtabs, 1)
+./plugged/YouCompleteMe/third_party/ycmd/cpp/BoostParts/boost/python/str.hpp:      str expandtabs() const;
+./plugged/YouCompleteMe/third_party/ycmd/cpp/BoostParts/boost/python/str.hpp:      str expandtabs(object_cref tabsize) const;
+./plugged/YouCompleteMe/third_party/ycmd/cpp/BoostParts/boost/python/str.hpp:    str expandtabs() const { return base::expandtabs(); }
+./plugged/YouCompleteMe/third_party/ycmd/cpp/BoostParts/boost/python/str.hpp:    str expandtabs(T const& tabsize) const
+./plugged/YouCompleteMe/third_party/ycmd/cpp/BoostParts/boost/python/str.hpp:        return base::expandtabs(object(tabsize));
+./plugged/vim-autoformat/plugin/defaults.vim:        let g:formatdef_astyle_cs = '"astyle --mode=cs --style=ansi --indent-namespaces -pcH".(&expandtab ? "s".shiftwidth() : "t")'
+./plugged/vim-autoformat/plugin/defaults.vim:    let s:noconfigfile_def = "'clang-format -lines='.a:firstline.':'.a:lastline.' --assume-filename=\"'.expand('%:p').'\" -style=\"{BasedOnStyle: WebKit, AlignTrailingComments: true, '.(&textwidth ? 'ColumnLimit: '.&textwidth.', ' : '').(&expandtab ? 'UseTab: Never, IndentWidth: '.shiftwidth() : 'UseTab: Always').'}\"'"
+./plugged/vim-autoformat/plugin/defaults.vim:        let g:formatdef_astyle_c = '"astyle --mode=c --style=ansi -pcH".(&expandtab ? "s".shiftwidth() : "t")'
+./plugged/vim-autoformat/plugin/defaults.vim:        let g:formatdef_astyle_cpp = '"astyle --mode=c --style=ansi -pcH".(&expandtab ? "s".shiftwidth() : "t")'
+./plugged/vim-autoformat/plugin/defaults.vim:        let g:formatdef_astyle_java = '"astyle --mode=java --style=java -pcH".(&expandtab ? "s".shiftwidth() : "t")'
+./plugged/vim-autoformat/plugin/defaults.vim:        let g:formatdef_jsbeautify_javascript = '"js-beautify -X -f - -".(&expandtab ? "s ".shiftwidth() : "t").(&textwidth ? " -w ".&textwidth : "")'
+./plugged/vim-autoformat/plugin/defaults.vim:    let g:formatdef_pyjsbeautify_javascript = '"js-beautify -X -".(&expandtab ? "s ".shiftwidth() : "t").(&textwidth ? " -w ".&textwidth : "")." -"'
+./plugged/vim-autoformat/plugin/defaults.vim:        let g:formatdef_jsbeautify_json = '"js-beautify -f - -".(&expandtab ? "s ".shiftwidth() : "t")'
+./plugged/vim-autoformat/plugin/defaults.vim:    let g:formatdef_pyjsbeautify_json = '"js-beautify -".(&expandtab ? "s ".shiftwidth() : "t")." -"'
+./plugged/vim-autoformat/plugin/defaults.vim:    let g:formatdef_htmlbeautify = '"html-beautify -f - -".(&expandtab ? "s ".shiftwidth() : "t")'
+./plugged/vim-autoformat/plugin/defaults.vim:    let g:formatdef_rbeautify = '"rbeautify ".(&expandtab ? "-s -c ".shiftwidth() : "-t")'
+./plugged/vim-autoformat/plugin/defaults.vim:    let g:formatdef_sassconvert = '"sass-convert -F scss -T scss --indent " . (&expandtab ? shiftwidth() : "t")'
+./plugged/vim-autoformat/plugin/defaults.vim:    let g:formatdef_gofmt_1 = '"gofmt -tabs=".(&expandtab ? "false" : "true")." -tabwidth=".shiftwidth()'
+./plugged/vim-autoformat/README.md:For the default formatprogram definitions, the options `expandtab`, `shiftwidth` and `textwidth` are taken into account whenever possible.
+./plugged/vim-autoformat/README.md:* The options `expandtab`, `shiftwidth`, `tabstop` and `softtabstop` are not overwritten anymore.
+./plugged/vim-autoformat/README.md:* It is now possible to prevent vim-autoformat from overwriting your settings for  `tabstop`, `softtabstop`, `shiftwidth` and `expandtab` in your .vimrc.
+./plugged/nerdcommenter/plugin/NERD_commenter.vim:        if !&expandtab
+./plugged/nerdcommenter/plugin/NERD_commenter.vim:        if !&expandtab
+./plugged/nerdcommenter/plugin/NERD_commenter.vim:    let lineHasLeadTabs = s:HasLeadingTabs(theLine) || (theLine =~ '^ *$' && !&expandtab)
+./plugged/nerdcommenter/plugin/NERD_commenter.vim:    if !&expandtab
+./plugged/YankRing.vim/plugin/yankring.vim:" vim:fdm=marker:nowrap:ts=4:expandtab:
+./plugged/vim-snippets/UltiSnips/ruby.snippets:# vim: set ts=2 sw=2 expandtab:
+./plugged/vim-snippets/UltiSnips/all.snippets:vim`!v ':set '. (&expandtab ? printf('et sw=%i ts=%i', &sw, &ts) : printf('noet sts=%i sw=%i ts=%i', &sts, &sw, &ts)) . (&tw ? ' tw='. &tw : '') . ':'`
+./plugged/vim-rails/doc/tags:rails-'expandtab'	rails.txt	/*rails-'expandtab'*
+./plugged/vim-rails/doc/rails.txt:					*rails-'expandtab'*	*rails-'et'*
+./plugged/vim-blockle/spec/spec_helper.rb:    vim.set 'expandtab'
